@@ -1,8 +1,11 @@
+[![Generic badge](https://img.shields.io/badge/Python-3.6+-blue.svg)](#)
+[![Generic badge](https://img.shields.io/badge/Tested_on-Linux%20|%20macOS%20|%20Windows-blue.svg)](#)
+
 # [spacy_installer](https://github.com/rtmigo/spacy_installer_py)
 
-Experimental package for automating installing and uninstalling 
-[spaCy](https://spacy.io/) language models directly from the code (without 
-using the command line).
+Installing and removing [spaCy](https://spacy.io/) language models from Python 
+code, without using the command line.
+
 
 ## Install this package
 
