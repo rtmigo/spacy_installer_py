@@ -20,7 +20,8 @@ def install_model(package: str):
 
 def uninstall_model(package: str):
     """Удаляет ранее установленную модель spacy."""
-    subprocess.check_call([sys.executable, '-m', 'pip', 'uninstall', package, '-y'])
+    subprocess.check_call(
+        [sys.executable, '-m', 'pip', 'uninstall', package, '-y'])
     ModelsFile().remove(package)
 
 
@@ -39,3 +40,11 @@ def load_model(pkg: str):
     except OSError:
         install_model(pkg)
         return spacy.load(pkg)
+
+
+def can_load(pkg: str) -> bool:
+    try:
+        spacy.load(pkg)
+        return True
+    except OSError:
+        return False

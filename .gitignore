@@ -1,3 +1,5 @@
+.spacy_models.txt
+
 # Editors
 .vscode/
 .idea/
@@ -28,7 +30,7 @@ dist/
 downloads/
 eggs/
 .eggs/
-# lib/ need this for test data
+# lib/ need this for test_postman data
 lib64/
 parts/
 sdist/
@@ -50,7 +52,7 @@ MANIFEST
 pip-log.txt
 pip-delete-this-directory.txt
 
-# Unit test / coverage reports
+# Unit test_postman / coverage reports
 htmlcov/
 .tox/
 .nox/
