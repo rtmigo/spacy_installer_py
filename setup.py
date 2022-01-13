@@ -16,7 +16,7 @@ name = "spacy_installer"
 
 setup(
     name=name,
-    version='0.1.0',
+    version='0.1.1',
     author="Artёm IG",
     author_email="ortemeo@gmail.com",
     url='https://github.com/rtmigo/spacy_installer_py#readme',
@@ -25,9 +25,10 @@ setup(
     install_requires=["spacy"],
     packages=['spacy_installer'],
 
-    description="",
+    description="Installing and removing spaCy language models from Python "
+                "code, without using the command line.",
 
-    keywords="".split(),
+    keywords="spacy pip install uninstall remove add load".split(),
 
     long_description=(Path(__file__).parent / 'README.md').read_text(),
     long_description_content_type='text/markdown',
