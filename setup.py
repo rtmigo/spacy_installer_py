@@ -16,10 +16,10 @@ name = "spacy_installer"
 
 setup(
     name=name,
-    version='0.1.1',
+    version='0.1.0',
     author="Artёm IG",
     author_email="ortemeo@gmail.com",
-    url='https://github.com/rtmigo/skifts_py#readme',
+    url='https://github.com/rtmigo/spacy_installer_py#readme',
 
     python_requires='>=3.6',
     install_requires=["spacy"],
