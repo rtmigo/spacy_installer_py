@@ -1,8 +1,11 @@
+[![Generic badge](https://img.shields.io/badge/Python-3.6+-blue.svg)](#)
+[![Generic badge](https://img.shields.io/badge/Tested_on-Linux%20|%20macOS%20|%20Windows-blue.svg)](#)
+
 # [spacy_installer](https://github.com/rtmigo/spacy_installer_py)
 
-Experimental package for automating installing and uninstalling 
-[spaCy](https://spacy.io/) language models directly from the code (without 
-using the command line).
+Installing and removing [spaCy](https://spacy.io/) language models from Python 
+code, without using the command line.
+
 
 ## Install this package
 
@@ -25,7 +28,7 @@ Or, install without loading.
 import spacy_installer
 
 # load pre-installed model or install and load
-model = spacy_installer.install_model('en_core_web_sm')
+spacy_installer.install_model('en_core_web_sm')
 ```
 
 
@@ -34,7 +37,7 @@ model = spacy_installer.install_model('en_core_web_sm')
 ```python3
 import spacy_installer
 
-model = spacy_installer.uninstall_model('en_core_web_sm')
+spacy_installer.uninstall_model('en_core_web_sm')
 ```
 
 Uninstall all models installed by the installer:
@@ -42,5 +45,5 @@ Uninstall all models installed by the installer:
 ```python3
 import spacy_installer
 
-model = spacy_installer.uninstall_all_models()
+spacy_installer.uninstall_all_models()
 ```
