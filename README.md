@@ -1,7 +1,8 @@
 # [spacy_installer](https://github.com/rtmigo/spacy_installer_py)
 
-Experimental code for automating installing and uninstalling spacy models 
-directly from the code (without using the command line).
+Experimental package for automating installing and uninstalling 
+[spaCy](https://spacy.io/) language models directly from the code (without 
+using the command line).
 
 ## Install this package
 
