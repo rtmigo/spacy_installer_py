@@ -28,7 +28,7 @@ Or, install without loading.
 import spacy_installer
 
 # load pre-installed model or install and load
-model = spacy_installer.install_model('en_core_web_sm')
+spacy_installer.install_model('en_core_web_sm')
 ```
 
 
@@ -37,7 +37,7 @@ model = spacy_installer.install_model('en_core_web_sm')
 ```python3
 import spacy_installer
 
-model = spacy_installer.uninstall_model('en_core_web_sm')
+spacy_installer.uninstall_model('en_core_web_sm')
 ```
 
 Uninstall all models installed by the installer:
@@ -45,5 +45,5 @@ Uninstall all models installed by the installer:
 ```python3
 import spacy_installer
 
-model = spacy_installer.uninstall_all_models()
+spacy_installer.uninstall_all_models()
 ```
